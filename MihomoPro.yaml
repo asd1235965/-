@@ -54,6 +54,8 @@ ClassicalYaml: &ClassicalYaml {type: http, interval: 86400, behavior: classical,
 proxy-providers:
   机场A: {<<: *PProviders, url: 'https://z.7li7li.me/api/v1/client/subscribe?token=07aee401974111b50f667129eba41f8e', override: {additional-prefix: '[A] '}}
   机场B: {<<: *PProviders, url: 'https://server.alice.dns-dynamic.net/s/cdfafa11cf35184a3e6d1b3f753da46b', override: {additional-prefix: '[B] '}}
+  机场C: {<<: *PProviders, url: 'https://linuxdoboard.webn.cc/LinuxDo/xGuSxh2t7g88oSXfY5VPJpeItQV3Qha1', override: {additional-prefix: '[C] '}}
+
 
 # 全局配置
 mode: rule
