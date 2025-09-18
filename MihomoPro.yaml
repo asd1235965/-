@@ -55,7 +55,7 @@ proxy-providers:
   机场A: {<<: *PProviders, url: 'https://z.7li7li.me/api/v1/client/subscribe?token=07aee401974111b50f667129eba41f8e', override: {additional-prefix: '[A] '}}
   机场B: {<<: *PProviders, url: 'https://alice.dns-dynamic.net/linuxdo-06bba403-4ea4-4849-82f5-1cd7595bc10a/config.txt', override: {additional-prefix: '[B] '}}
   机场C: {<<: *PProviders, url: 'https://linuxdoboard.webn.cc/LinuxDo/xGuSxh2t7g88oSXfY5VPJpeItQV3Qha1', override: {additional-prefix: '[C] '}}
-  机场D: {<<: *PProviders, url: 'https://pokesub.go52pokemon.com/api/v1/client/subscribe?token=f203e4a8e794d843b1f6872b6b75dc71', override: {additional-prefix: '[D] '}}
+  机场D: {<<: *PProviders, url: 'https://pokelink.xn--4gsvmh74cwxi.cn/api/v1/client/subscribe?token=39dcea3a4f9730fe865b352c6129bdea', override: {additional-prefix: '[D] '}}
 
 # 全局配置
 mode: rule
